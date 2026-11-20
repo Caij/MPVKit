@@ -696,6 +696,7 @@ private class BuildFFMPEG: BaseBuild {
         "--enable-demuxer=ogg", "--enable-demuxer=rm", "--enable-demuxer=rtsp", "--enable-demuxer=rtp",
         "--enable-demuxer=srt", "--enable-demuxer=webvtt",
         "--enable-demuxer=vc1", "--enable-demuxer=wav", "--enable-demuxer=webm_dash_manifest",
+        "--enable-demuxer=dsf", "--enable-demuxer=dff",
         // ./configure --list-bsfs
         "--enable-bsfs",
         // ./configure --list-decoders
@@ -723,6 +724,7 @@ private class BuildFFMPEG: BaseBuild {
         "--enable-decoder=mp1*", "--enable-decoder=mp2*", "--enable-decoder=mp3*", "--enable-decoder=opus",
         "--enable-decoder=pcm*", "--enable-decoder=sonic",
         "--enable-decoder=truehd", "--enable-decoder=tta", "--enable-decoder=vorbis", "--enable-decoder=wma*",
+        "--enable-decoder=dsd*",
         // 字幕
         "--enable-decoder=ass", "--enable-decoder=ccaption", "--enable-decoder=dvbsub", "--enable-decoder=dvdsub",
         "--enable-decoder=mpl2", "--enable-decoder=movtext",
