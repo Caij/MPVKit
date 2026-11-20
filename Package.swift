@@ -253,31 +253,38 @@ let package = Package(
 
         .binaryTarget(
             name: "Libavcodec",
-            path: "dist/release/Libavcodec.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libavcodec.xcframework.zip",
+            checksum: "58d69619fdd98661649adfaf8d3b5e5d31bc0b505c67262ed2986d3105c58c52"
         ),
         .binaryTarget(
             name: "Libavdevice",
-            path: "dist/release/Libavdevice.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libavdevice.xcframework.zip",
+            checksum: "bdcc2278e6db2bbcb9795b2f15bb6e0ed45d25981c722cc1631fbfdddeb503aa"
         ),
         .binaryTarget(
             name: "Libavformat",
-            path: "dist/release/Libavformat.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libavformat.xcframework.zip",
+            checksum: "cfd384dacba7ae1200670a0df8748ab7f61e23202cc90ca8ab567a47053a0a57"
         ),
         .binaryTarget(
             name: "Libavfilter",
-            path: "dist/release/Libavfilter.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libavfilter.xcframework.zip",
+            checksum: "db48816777ada82541875d0682758064893edd3a344caa8d8641189c5f9cd759"
         ),
         .binaryTarget(
             name: "Libavutil",
-            path: "dist/release/Libavutil.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libavutil.xcframework.zip",
+            checksum: "b5f948d9247b4927e7bd7b78b5b2d0b14d4216fe8364630e2d1f29eaadafb1ae"
         ),
         .binaryTarget(
             name: "Libswresample",
-            path: "dist/release/Libswresample.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libswresample.xcframework.zip",
+            checksum: "0b3cb611800759813511c5f3e88054dfdda918237557db3eedfbe1115e5b09a8"
         ),
         .binaryTarget(
             name: "Libswscale",
-            path: "dist/release/Libswscale.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libswscale.xcframework.zip",
+            checksum: "d6c53bd29ed21ba164a4ba8a4c1caaf76b53489b121faefa11755755ba957298"
         ),
 
         .binaryTarget(
@@ -294,7 +301,8 @@ let package = Package(
 
         .binaryTarget(
             name: "Libmpv",
-            path: "dist/release/Libmpv.xcframework.zip"
+            url: "https://github.com/Caij/MPVKit/releases/download/0.41.0-audio.1/Libmpv.xcframework.zip",
+            checksum: "fb1bc16a7b7dbed0a2a56a3249be09f0799def72c0f6f1dc42833d1396252f07"
         ),
         //AUTO_GENERATE_TARGETS_END//
     ]
